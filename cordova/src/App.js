@@ -142,6 +142,10 @@ class App extends Component {
 
   //App render
   render() {
+    let styleInput = {
+      width: 100
+    }
+
     return (
       <div className="App">
 		    <header className="App-header">
@@ -173,11 +177,12 @@ class App extends Component {
 
 
           <div class="container">
-            <div class="columns">
+            <div class="columns is-mobile">
               <div class="field column">
                 <div class="control">
                   <p>{ this.state.taskValue }</p>
-                  <input 
+                  <input
+                    style={ styleInput }
                     class="input" 
                     type="number" 
                     pattern="[0-9]*" 
@@ -192,7 +197,8 @@ class App extends Component {
               <div class="field column">
                 <div class="control">
                   <p>Break</p>
-                  <input 
+                  <input
+                    style={ styleInput }
                     class="input" 
                     type="number" 
                     pattern="[0-9]*"  
