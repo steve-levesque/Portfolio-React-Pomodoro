@@ -1,3 +1,10 @@
+# Primary
+/node_modules/
+/cordova/node_modules/
+/www/
+/cordova/build/
+/platforms/
+
 # Logs
 logs
 *.log
