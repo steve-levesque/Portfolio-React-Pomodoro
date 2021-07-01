@@ -37,7 +37,7 @@ A Pomodoro technique can be used to maximize study sessions or programming activ
     |- cordova      # Contains the application.
     |   |- public   # Base of the web page.
     |   |- src      # React code of the pomodoro application.
-    |   |- build    # Generated with command.
+    |   |- [build]    # Generated with command.
     |- [www]        # Generated with command.
     |- doc          # Contains repo readme pictures.
     |- .gitignore
